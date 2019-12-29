@@ -1,9 +1,17 @@
-
 #The Bot token
-token: NjIwMzc2ODcxOTA0NzM5MzU5.XZddVw.ls3t9cUmnN3IXsoKV46vwI-h8Zs
+token: NjIwMzc2ODcxOTA0NzM5MzU5.XgicoA.l-s5sC5OIPZ98d5hE2D1BVEKnLA
 
 # The Bot Client ID
 client_id: 620376871904739359
 
 # Your ID (Optional, for owner commands)
 owner_id: 268351613771448320
+
+# Array bot playing game
+status:
+  [
+    "gosto de comer o astah",
+    "comendo o astah de 4",
+    "astah rebolando em mim",
+    "ligando para o astah gostosão",
+  ]
