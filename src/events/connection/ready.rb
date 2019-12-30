@@ -13,7 +13,7 @@ module CrisRuby
 
       ready do |event|
         event.bot.game = CONFIG['status'].sample
-        LOGGER.info "#{event.bot.profile.distinct} está rodando"
+        LOGGER.event "#{event.bot.profile.distinct} está rodando"
       end
     end
   end

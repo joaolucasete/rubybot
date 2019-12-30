@@ -2,8 +2,11 @@ module CrisRuby
   module DiscordCommands
     module Userinfo
       extend Discordrb::Commands::CommandContainer
-      command(%i[ui uinfo useri userinfo], max_args: 1) do |event, user|
-        puts "Executando UserInfo"
+      command(%i[ui uinfo useri userinfo],
+          max_args: 1) do |event, user|
+
+        LOGGER.command "Executando UserInfo"
+        
         user_id = user.to_s.scan(/\d/).join
         user = event.server.member(user_id) || event.author
         event.channel.send_embed do |embed|

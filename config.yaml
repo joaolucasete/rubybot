@@ -1,11 +1,14 @@
 #The Bot token
-token: NjIwMzc2ODcxOTA0NzM5MzU5.XgicoA.l-s5sC5OIPZ98d5hE2D1BVEKnLA
+token: NjIwMzc2ODcxOTA0NzM5MzU5.Xgkwzg.WQr8v4t-rzr37ENbf4gfrBcp-Ac
 
 # The Bot Client ID
 client_id: 620376871904739359
 
 # Your ID (Optional, for owner commands)
 owner_id: 268351613771448320
+
+# Bot Favorite Color
+color: 0xb30047
 
 # Array bot playing game
 status:

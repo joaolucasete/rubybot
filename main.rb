@@ -10,7 +10,8 @@ Bot = Discordrb::Commands::CommandBot.new(
   prefix: ["<@#{CONFIG['client_id']}> ", '.'],
   ignore_bots: true,
   spaces_allowed: true,
-  compress_mode: :stream
+  compress_mode: :stream,
+  color: CONFIG['color']
 )
 
 LOGGER = Discordrb::Logger.new
