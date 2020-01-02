@@ -15,7 +15,7 @@ module CrisRuby
           embed.add_field(name: 'Membros: ',
               value: "```prolog\nO servidor possui #{server.member_count} membros```",
               inline:true)
-          embed.color = 0x00ff00
+          embed.color = Bot.color
           embed.timestamp = Time.now.getutc
         end
       end

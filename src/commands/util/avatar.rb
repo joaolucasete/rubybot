@@ -2,7 +2,6 @@ module CrisRuby
   module DiscordCommands
     module Avatar
       extend Discordrb::Commands::CommandContainer
-
       command(%i[avatar av], max_args: 1) do |event, user|
         user_id = user.to_s.scan(/\d/).join
         user = event.server.member(user_id) || event.author

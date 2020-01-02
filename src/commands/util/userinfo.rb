@@ -21,7 +21,7 @@ module CrisRuby
             value: user.roles.map{ |role| "<@&#{role.id}>"}.join(', '), 
             inline:true)
           embed.timestamp = Time.now
-          embed.color = 0xf0f0f
+          embed.color = Bot.color
         end
       end
     end
