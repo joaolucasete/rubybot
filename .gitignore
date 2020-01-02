@@ -1,3 +1,2 @@
 discordrb/
-./config.yaml
-./Gemfile.lock
+*.yaml
