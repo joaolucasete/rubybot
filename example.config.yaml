@@ -1,0 +1,18 @@
+#The Bot token
+token: NjIwMzc2ODcxOTA0NzM5MzU5.Xg3xNg.mhmxxds9wMlEha1Bsy7VMtNow7U
+
+# The Bot Client ID
+client_id: #[Number] - ex: 4130186486546513
+
+# Your ID (Optional, for owner commands)
+owner_id: #[Number] - ex: 4130186486546513
+
+# Bot Favorite Color
+color: 0xb30047
+
+# Array bot playing game
+status:
+  [
+    "Gosto de programar",
+    #etc,
+  ]
